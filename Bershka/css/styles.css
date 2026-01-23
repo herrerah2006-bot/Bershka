@@ -1,0 +1,52 @@
+:root {
+    --primario: #f7e492;   /* El crema que quieres */
+    --secundario: #17f397; /* Negro para el header */
+    --texto: #333333;
+}
+*{
+    background: var(--primario);
+    font-family:"Raleway", sans-serif;
+    font: size 1.4rem;
+
+}
+/* AJUSTE COMPONENTE 2: HERO (TÍTULO CON CUADRO) */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 1.4rem;             /* Tamaño mediano */
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border: 2px solid #1A1A1A;     /* El cuadro del título */
+    padding: 15px 30px;            
+    display: inline-block;         
+    margin: 0 auto;                /* Asegura el centrado */
+}
+
+/* AJUSTE COMPONENTE 3: CARDS (CUADROS MEDIANOS) */
+.contenedor-cards {
+    display: flex;
+    justify-content: center;       /* Centra los cuadros */
+    gap: 25px;                     /* Espacio entre ellos */
+    padding: 30px 20px;
+}
+
+.card {
+    border: 1px solid #1A1A1A;     /* Cuadro de la card */
+    padding: 20px;
+    width: 200px;                  /* Tamaño mediano */
+    text-align: center;
+    background-color: transparent;
+}
+
+.card h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contacto</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <nav class="border-t border-b border-black my-4">
+        <div class="flex justify-center divide-x divide-black py-2">
+            <a href="../index.html" class="px-6 uppercase text-sm font-bold">Home</a>
+            <a href="Nosotros.html" class="px-6 uppercase text-sm font-bold">Nosotros</a>
+            <a href="productos.html" class="px-6 uppercase text-sm font-bold">Productos</a>
+            <a href="contacto.html" class="px-6 uppercase text-sm font-bold">Contacto</a>
+        </div>
+    </nav>
+    <hr class="border-t border-black my-4">
+    <div>
+        <h2>Formulario de contacto</h2>
+        <hr class="border-t border-black my-4">
+
+        <form action="">
+            <label>Ingrese su Nombre</label>
+            <br>
+            <input type="text" id="Nombre" placeholder="nombre" class="border border-black p-1" required min="3"
+                max="10">
+            <br><br>
+
+            <label for="Email">Ingrese su Email</label>
+            <br>
+            <input type="email" id="Email" placeholder="email" class="border border-black p-1" required size="15">
+            <br><br>
+
+            <label for="Password">Ingrese su Password</label>
+            <br>
+            <input type="password" id="Password" placeholder="Password" class="border border-black p-1" required>
+            <br><br>
+
+            <label for="Edad">Ingrese su Edad</label>
+            <br>
+            <input type="number" id="Edad" placeholder="Edad" class="border border-black p-1" required>
+            <br><br>
+
+            <label for="direccion">Ingrese su direccion</label>
+            <br>
+            <textarea name="direccion" id="direccion" cols="50" rows="9" class="border border-black p-1"></textarea>
+            <br><br>
+
+            <label>Genero</label>
+            <br>
+            <label for="Masculino">
+                <input type="radio" name="Genero" value="Masculino" id="Masculino">
+                Masculino
+            </label>
+            <br>
+            <label for="Femenino">
+                <input type="radio" name="Genero" id="Femenino">
+                Femenino
+            </label>
+            <br><br>
+
+            <label for="profesion">Profesión:</label>
+            <br>
+            <select id="profesion" name="profesion" class="border border-black p-1">
+                <option value="" disabled selected>Seleccione su profesion</option>
+                <option value="estudiante">Estudiante</option>
+                <option value="diseno">Diseño de Moda</option>
+                <option value="ventas">Asesor de Ventas</option>
+                <option value="marketing">Marketing Digital</option>
+                <option value="admin">Administración</option>
+                <option value="otro">Otro</option>
+            </select>
+            <br>
+            <br>
+            <hr class="border-t border-black my-4">
+            <header class="hero text-center my-10">
+                <h1 class="text-4xl font-bold uppercase tracking-widest">Atención al Cliente</h1>
+                <p class="text-gray-600">Estamos aquí para ayudarte. Déjanos tus datos.</p>
+            </header>
+
+            <div class="flex justify-center gap-6 p-10">
+                <a href="#faq"
+                    class="border border-black p-6 w-[250px] text-center hover:bg-black hover:text-black transition-all duration-300 group">
+                    <h3 class="text-sm uppercase font-bold">Preguntas Frecuentes</h3>
+                    <p class="text-xs opacity-70 mt-2 group-hover:text-gray-300">Ver novedades</p>
+                </a>
+
+                <a href="#mapa"
+                    class="border border-black p-6 w-[250px] text-center hover:bg-black hover:text-black transition-all duration-300 group">
+                    <h3 class="text-sm uppercase font-bold">Ubicación de Tiendas</h3>
+                    <p class="text-xs opacity-70 mt-2 group-hover:text-gray-3"> ver novedades</p>
+            </div>
+
+        </form>
+        <div class="flex justify-center gap-4 mt-8">
+            <button type="submit"
+                class="bg-black text-white px-8 py-2 uppercase text-xs font-bold tracking-widest hover:bg-gray-800 transition">
+                Enviar
+            </button>
+
+            <button type="reset"
+                class="border border-black text-black px-8 py-2 uppercase text-xs font-bold tracking-widest hover:bg-gray-100 transition">
+                Limpiar
+            </button>
+
+            <a href="../index.html"
+                class="border border-black text-black px-8 py-2 uppercase text-xs font-bold tracking-widest hover:bg-gray-100 transition inline-block">
+                Volver
+            </a>
+        </div>
+</body>
+</div>
+<footer class="border-t border-black mt-20 py-12 bg-black">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+        <h2 class="text-xl font-bold uppercase tracking-widest mb-6">Bershka Clone</h2>
+        <div class="flex justify-center gap-8 mb-8 text-xs uppercase font-medium">
+            <a href="#" class="hover:underline">Instagram</a>
+            <a href="#" class="hover:underline">TikTok</a>
+            <a href="#" class="hover:underline">Facebook</a>
+            <a href="#" class="hover:underline">Ayuda</a>
+        </div>
+        <p class="text-[10px] text-gray-500 uppercase tracking-widest">
+            © 2026 PROYECTO ACADÉMICO - TODOS LOS DERECHOS RESERVADOS
+        </p>
+    </div>
+</footer>
+</html>
