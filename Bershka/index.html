@@ -19,8 +19,11 @@
             <img src="images/jpg.png" alt="Logo de la empresa" class="w-[80px] h-auto">
         </div>
 
+
         <h2 class="text-4xl font-bold uppercase tracking-[0.2em] leading-none">
             Bershka
+
+            <h2 id="mensaje-dinamico" class="text-center text-xl mt-4"></h2>
 
     </header>
     <hr class="border-t border-black my-4">
@@ -35,7 +38,7 @@
     </nav>
     <hr class="border-t border-black my-4">
     <main>
-        <h2>Bienvenidos a Bershka</h2>
+
         <p>
             ​"En Bershka, nos apasiona conectar con la generación más joven a través de una propuesta de moda audaz,
             dinámica y en constante evolución. No somos solo una tienda de ropa; somos el punto de encuentro entre las
@@ -54,7 +57,7 @@
 
     </main>
 
-
+    <script src="js/index.js"></script>
 </body>
 <hr class="border-t border-black my-4">
 <h2>Tu estilo, Nuestra pasión</h2>
@@ -67,10 +70,10 @@
     <div class="w-full max-w-5xl px-4">
         <div class="relative overflow-hidden border border-black shadow-2xl h-[450px]">
 
-    <video autoplay muted loop playsinline class="w-full h-full object-cover">
-    <source src="../Bershka/video/video_fondo.mp4.mp4" type="video/mp4">
-    Tu navegador no soporta el video.
-</video>
+            <video autoplay muted loop playsinline class="w-full h-full object-cover">
+                <source src="../Bershka/video/video_fondo.mp4.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
 
 
             <div class="absolute inset-0 flex flex-col items-center justify-center bg-black/20">
@@ -91,15 +94,18 @@
     <p>Define tu estilo con Bershka</p>
 </section>
 
-<div class="flex justify-center gap-6 p-10">
-    <a href="pages/productos.html" class="border border-black p-5 w-[250px] text-center hover:bg-gray-100 transition">
-        <h3 class="text-sm uppercase font-bold">Nueva Colección</h3>
-        <p class="text-xs opacity-70">Ver novedades</p>
+<div class="flex flex-col md:flex-row gap-4">
+
+    <a id="btn-nueva" href="pages/productos.html"
+        class="px-8 py-3 bg-white text-black font-bold hover:bg-gray-200 transition-colors">
+        NUEVA COLECCIÓN
     </a>
-    <a href="pages/productos.html" class="border border-black p-5 w-[250px] text-center hover:bg-gray-100 transition">
-        <h3 class="text-sm uppercase font-bold">Ofertas de Temporada</h3>
-        <p class="text-xs opacity-70">Ver novedades</p>
+
+    <a id="id-ofertas" href="pages/productos.html"
+        class="px-8 py-3 border-2 border-white text-black font-bold hover:bg-white hover:text-black transition-all">
+        OFERTAS DE TEMPORADA
     </a>
+
 </div>
 <footer>
     <hr class="border-t border-black my-4">
