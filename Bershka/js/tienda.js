@@ -2,7 +2,7 @@ const cargarTienda = async () => {
     const contenedor = document.getElementById('contenedor-productos');
 
     try {
-        // 1. Cargar los datos
+        
         const respuesta = await fetch("/public/data/productos.json"); 
         const datos = await respuesta.json();
 
@@ -38,7 +38,7 @@ const cargarTienda = async () => {
         });
 
     } catch (error) {
-        // 3. EL CATCH (Como en tu foto e39e6806)
+        
         console.log("Error", error);
         contenedor.innerHTML = `
             <p class="text-red-700 text-center col-span-full text-xl font-bold">
@@ -48,6 +48,6 @@ const cargarTienda = async () => {
     }
 };
 
-// Ejecutar la función
+
 cargarTienda();
 
