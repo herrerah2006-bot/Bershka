@@ -1,0 +1,27 @@
+[
+  {
+    "nombre": "Camiseta Boxy Fit Gráfico",
+    "precio": 15.99,
+    "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "nombre": "Pantalón Carpenter Baggy",
+    "precio": 35.99,
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500"
+  },
+  {
+    "nombre": "Cazadora Bomber Nylon",
+    "precio": 49.99,
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "nombre": "Sudadera Oversize Capucha",
+    "precio": 29.99,
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "nombre": "Zapatilla Deportiva Plataforma",
+    "precio": 39.99,
+    "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=500&q=80"
+  }
+]
